@@ -23,6 +23,7 @@ class JobVacancyResource extends JsonResource
             'job_desks' => $this->job_desks,
             'requirements' => $this->requirements,
             'benefits' => $this->benefits,
+            'link' => $this->link,
             'job_category' => $this->job_category,
             'company' => $this->company,
             'created_at' => $this->created_at,

@@ -23,15 +23,10 @@ class JobVacancyResource extends JsonResource
             'job_desks' => $this->job_desks,
             'requirements' => $this->requirements,
             'benefits' => $this->benefits,
-            'job_category_id' => $this->job_category_id,
-            'company_id' => $this->company_id,
+            'job_category' => $this->job_category,
+            'company' => $this->company,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
-
-
-            'company' => new CompanyResource($this->whenLoaded('company')),
-            'job_category' => new JobCategoryResource($this->whenLoaded('jobCategory')),
-
         ];
     }
 }

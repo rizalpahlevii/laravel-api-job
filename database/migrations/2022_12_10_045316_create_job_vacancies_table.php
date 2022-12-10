@@ -10,25 +10,20 @@ return new class extends Migration {
      *
      * @return void
      */
-    public function up()
+    public function up(): void
     {
         Schema::create('job_vacancies', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->string('description')->nullable();
+            $table->longText('description')->nullable();
             $table->string('location')->nullable();
             $table->string('salary')->nullable();
+            $table->string('company')->nullable();
+            $table->string('job_category')->nullable();
 
             $table->json('job_desks')->nullable();
             $table->json('requirements')->nullable();
             $table->json('benefits')->nullable();
-
-            $table->unsignedBigInteger('job_category_id')->nullable();
-            $table->foreign('job_category_id')->references('id')->on('job_categories');
-
-            $table->unsignedBigInteger('company_id')->nullable();
-            $table->foreign('company_id')->references('id')->on('companies');
-
 
             $table->timestamps();
         });
@@ -39,7 +34,7 @@ return new class extends Migration {
      *
      * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists('job_vacancies');
     }

@@ -10,14 +10,14 @@ class JobController extends Controller
 {
     public function index()
     {
-        $jobs = JobVacancy::with('company', 'jobCategory')->get();
+        $jobs = JobVacancy::get();
         $jobs = JobVacancyResource::collection($jobs);
         return response()->json($jobs);
     }
 
     public function show($id)
     {
-        $job = JobVacancy::with('company', 'jobCategory')->find($id);
+        $job = JobVacancy::find($id);
         $job = new JobVacancyResource($job);
         return response()->json($job);
     }

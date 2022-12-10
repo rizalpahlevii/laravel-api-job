@@ -37,6 +37,8 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+
+
             [
                 'title' => 'Mobile Frontend Developer - Indonesia - MB',
                 'description' => 'We are looking for a Mobile Frontend Developer to join our team. You will be responsible for the development and maintenance of our software applications. You will also be responsible for the development and maintenance of our software applications.',
@@ -69,6 +71,8 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+
+
             [
                 'title' => 'Junior Business Analyst',
                 'description' => 'We are looking for a Junior Business Analyst to join our team. You will be responsible for the development and maintenance of our software applications. You will also be responsible for the development and maintenance of our software applications.',
@@ -97,7 +101,7 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                 'company' => 'BCA ',
                 'created_at' => now(),
                 'updated_at' => now(),
-            ]
+            ],
 
         ];
 

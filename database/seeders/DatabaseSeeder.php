@@ -3,6 +3,9 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Company;
+use App\Models\JobCategory;
+use App\Models\JobVacancy;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -12,13 +15,14 @@ class DatabaseSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        Company::factory()->count(10)->create();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        JobCategory::factory()->count(10)->create();
+
+        foreach (Company::all() as $company) {
+            JobVacancy::factory()->for($company)->for(JobCategory::inRandomOrder()->first())->count(10)->create();
+        }
     }
 }

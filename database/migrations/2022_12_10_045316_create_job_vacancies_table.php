@@ -24,6 +24,7 @@ return new class extends Migration {
             $table->json('job_desks')->nullable();
             $table->json('requirements')->nullable();
             $table->json('benefits')->nullable();
+            $table->longText('company_logo_url')->nullable();
 
             $table->timestamps();
         });

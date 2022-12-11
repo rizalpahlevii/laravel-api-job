@@ -12,7 +12,6 @@ class JobVacanciesSeeder extends Seeder
      * Run the database seeds.
      *
      * @return void
-     * @throws FileCannotBeAdded
      */
     public function run(): void
     {
@@ -37,7 +36,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://www.hiredtoday.com/en/jobs-detail/salesman-semarang-kedungmundu?SiteID=int_id_linkedin&utm_source=linkedin&utm_medium=referral',
-                'pictureId' => 'https://media-exp1.licdn.com/dms/image/C510BAQHsHu40ibGGPw/company-logo_200_200/0/1531043888231?e=2147483647&v=beta&t=3z4cEu9lxH-qsj71opQu4YSsWmWuKC0uOSEp22UXiGU',
+                'company_logo_url' => 'https://media-exp1.licdn.com/dms/image/C510BAQHsHu40ibGGPw/company-logo_200_200/0/1531043888231?e=2147483647&v=beta&t=3z4cEu9lxH-qsj71opQu4YSsWmWuKC0uOSEp22UXiGU',
             ],
 
 
@@ -64,7 +63,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://jobs.lever.co/ninjavan/e7aeb643-06af-45ba-aa5a-e78fba52e6c5',
-                'pictureId' => 'https://media-exp1.licdn.com/dms/image/C510BAQHsHu40ibGGPw/company-logo_200_200/0/1531043888231?e=2147483647&v=beta&t=3z4cEu9lxH-qsj71opQu4YSsWmWuKC0uOSEp22UXiGU',
+                'company_logo_url' => 'https://media-exp1.licdn.com/dms/image/C510BAQHsHu40ibGGPw/company-logo_200_200/0/1531043888231?e=2147483647&v=beta&t=3z4cEu9lxH-qsj71opQu4YSsWmWuKC0uOSEp22UXiGU',
             ],
 
 
@@ -93,7 +92,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://www.hiredtoday.com/en/jobs-detail/staff-admin-wonotingal-aa45820e-a353-4e2a-86fc-d29ef4764053?SiteID=int_id_linkedin&utm_source=linkedin&utm_medium=referral',
-                'pictureId' => 'https://media-exp1.licdn.com/dms/image/C4D0BAQHPlPwLHuCrfQ/company-logo_200_200/0/1519902747805?e=2147483647&v=beta&t=-39LfpPkXfOtzCUlv2zbHqQn-E51t7PJvli_55a1hi0',
+                'company_logo_url' => 'https://media-exp1.licdn.com/dms/image/C4D0BAQHPlPwLHuCrfQ/company-logo_200_200/0/1519902747805?e=2147483647&v=beta&t=-39LfpPkXfOtzCUlv2zbHqQn-E51t7PJvli_55a1hi0',
             ],
 
             [
@@ -115,7 +114,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://www.hiredtoday.com/en/jobs-detail/admin-akuntansi-internship-ngesrep?SiteID=int_id_linkedin&utm_source=linkedin&utm_medium=referral',
-                'pictureId' => 'https://www.hiredtoday.com/employer/images/2022/11/10/435ef18307.png',
+                'company_logo_url' => 'https://www.hiredtoday.com/employer/images/2022/11/10/435ef18307.png',
             ],
 
             [
@@ -140,7 +139,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://www.accenture.com/id-en/careers/jobdetails?id=R00136458_en&src=LINKEDINJP',
-                'pictureId' => 'https://static.wixstatic.com/media/349ea3_1e21d901ec0848aa976b795b03de66c3~mv2.png/v1/fill/w_1024,h_683,al_c,q_90/file.jpg',
+                'company_logo_url' => 'https://static.wixstatic.com/media/349ea3_1e21d901ec0848aa976b795b03de66c3~mv2.png/v1/fill/w_1024,h_683,al_c,q_90/file.jpg',
             ],
 
 
@@ -175,7 +174,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://beyondsoft.recruiterpal.com/career/jobs/6nbql',
-                'pictureId' => 'https://media-exp1.licdn.com/dms/image/C560BAQH1ZAa0FjifaA/company-logo_200_200/0/1643182117118?e=1672272000&v=beta&t=Rel17N6xHLQljochUjRKnxConOGDqa-Tzd3MVY_agP0',
+                'company_logo_url' => 'https://media-exp1.licdn.com/dms/image/C560BAQH1ZAa0FjifaA/company-logo_200_200/0/1643182117118?e=1672272000&v=beta&t=Rel17N6xHLQljochUjRKnxConOGDqa-Tzd3MVY_agP0',
             ],
 
 
@@ -202,7 +201,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://karir.bca.co.id/job-fair/junior-business-analyst-okt-nov?utm_source=social%20organic&utm_medium=linkedin&utm_campaign=sac_bca-dtb-adm_all%20product_info-organic_social%20organic_nov_cps_linkedin|22110101912&utm_content=bankbca-linkedin-job%20posting',
-                'pictureId' => 'https://baradesain.files.wordpress.com/2010/10/bca-bank-logo_logo-bagus-03.jpg?w=1200',
+                'company_logo_url' => 'https://baradesain.files.wordpress.com/2010/10/bca-bank-logo_logo-bagus-03.jpg?w=1200',
             ],
 
             [
@@ -226,7 +225,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://glints.com/id/opportunities/jobs/data-scientist/ff57c931-ad7d-47dd-b25d-94e7df4c3fef',
-                'pictureId' => 'https://pbs.twimg.com/profile_images/1045191468363608064/QEnRUZy__400x400.jpg',
+                'company_logo_url' => 'https://pbs.twimg.com/profile_images/1045191468363608064/QEnRUZy__400x400.jpg',
             ],
 
             [
@@ -254,7 +253,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://talent.usedeall.com/job-detail/6371ba9ab562e60013efa3ee?utm_source=ig-feed&utm_medium=post&utm_campaign=promote&utm_content=de-xxi',
-                'pictureId' => 'https://play-lh.googleusercontent.com/x2z5kFDyGWnLP3y-XfUBNR1vQd7ObVtciXqpegcuDTUmorXPAWGPeP7eIgOiDCGwywI',
+                'company_logo_url' => 'https://play-lh.googleusercontent.com/x2z5kFDyGWnLP3y-XfUBNR1vQd7ObVtciXqpegcuDTUmorXPAWGPeP7eIgOiDCGwywI',
             ],
 
             [
@@ -285,7 +284,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://www.linkedin.com/jobs/search/?currentJobId=3373655059&keywords=junior%20%20business%20analyst&refresh=true',
-                'pictureId' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGqHvaMQt-_DWkcDD5fjrh883m2YjVITM97HQsp9O_pbrLnALFcqNN2g55FC6cOX6Djo&usqp=CAU',
+                'company_logo_url' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGqHvaMQt-_DWkcDD5fjrh883m2YjVITM97HQsp9O_pbrLnALFcqNN2g55FC6cOX6Djo&usqp=CAU',
             ],
 
             [
@@ -311,7 +310,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://www.linkedin.com/jobs/search/?currentJobId=3385902585&keywords=junior%20%20business%20analyst&refresh=true',
-                'pictureId' => 'https://www.kawanlamagroup.com/storage/465/KLS_Logo.png',
+                'company_logo_url' => 'https://www.kawanlamagroup.com/storage/465/KLS_Logo.png',
             ],
 
             [
@@ -344,7 +343,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://www.linkedin.com/jobs/search/?currentJobId=3373642481&geoId=102478259&keywords=data%20engineer&location=Indonesia&refresh=true',
-                'pictureId' => 'https://media-exp1.licdn.com/dms/image/C560BAQHRgJB3Z8X1nA/company-logo_200_200/0/1658569320546?e=2147483647&v=beta&t=C8RdfhxrzMv1oqN8wpoz5a-6P4GtGclr-hGhLOyO5SI',
+                'company_logo_url' => 'https://media-exp1.licdn.com/dms/image/C560BAQHRgJB3Z8X1nA/company-logo_200_200/0/1658569320546?e=2147483647&v=beta&t=C8RdfhxrzMv1oqN8wpoz5a-6P4GtGclr-hGhLOyO5SI',
             ],
 
             [
@@ -376,7 +375,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://talent.usedeall.com/job-detail/638455e289b9750012ef5f77?source=homepage',
-                'pictureId' => 'https://edwinghofamz.files.wordpress.com/2011/12/pizzahut.png',
+                'company_logo_url' => 'https://edwinghofamz.files.wordpress.com/2011/12/pizzahut.png',
             ],
 
             [
@@ -407,7 +406,7 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://talent.usedeall.com/job-detail/63299d736e795b0013cd8f27',
-                'pictureId' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMm5_NAHLuTyZuxqIyG4tLSLDgHgwQWGdyeCG2b-MJxmMeoBBz',
+                'company_logo_url' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMm5_NAHLuTyZuxqIyG4tLSLDgHgwQWGdyeCG2b-MJxmMeoBBz',
             ],
 
             [
@@ -443,16 +442,13 @@ class JobVacanciesSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://talent.usedeall.com/job-detail/63806d5f692673001440653d?source=homepage',
-                'pictureId' => 'https://scontent.fsrg6-1.fna.fbcdn.net/v/t1.6435-9/145877939_871293263665543_9088525252927659425_n.png?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEpQDTE5J8CngK7PyKa6NuFYhVFdBeN5JhiFUV0F43kmJ2Dfq-49kvuoQPtVevFVgmkMq8LzWzsUVSeFzskSK7-&_nc_ohc=_hQvv4GVHrIAX-lhjFj&_nc_ht=scontent.fsrg6-1.fna&oh=00_AfD6xW0QXXxc3FLtpMgmzwGuzy-e9RVqolpnpGOGDicnCA&oe=63BCF84C',
+                'company_logo_url' => 'https://scontent.fsrg6-1.fna.fbcdn.net/v/t1.6435-9/145877939_871293263665543_9088525252927659425_n.png?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEpQDTE5J8CngK7PyKa6NuFYhVFdBeN5JhiFUV0F43kmJ2Dfq-49kvuoQPtVevFVgmkMq8LzWzsUVSeFzskSK7-&_nc_ohc=_hQvv4GVHrIAX-lhjFj&_nc_ht=scontent.fsrg6-1.fna&oh=00_AfD6xW0QXXxc3FLtpMgmzwGuzy-e9RVqolpnpGOGDicnCA&oe=63BCF84C',
             ],
 
         ];
 
         foreach ($data as $row) {
-            $pictureUrl = $row['pictureId'];
-            unset($row['pictureId']);
             $job = JobVacancy::create($row);
-            $job->addMediaFromUrl($pictureUrl)->toMediaCollection('company_logo');
         }
 
     }

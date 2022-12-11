@@ -16,98 +16,6 @@ class JobVacanciesSeeder extends Seeder
     {
         $data = [
             [
-                'title' => 'Application Development Analyst',
-                'description' => 'We are looking for an Application Development Analyst to join our team. You will be responsible for the development and maintenance of our software applications. You will also be responsible for the development and maintenance of our software applications.',
-                'requirements' => json_encode([
-                    'Bachelors Degree in Information Technology, Computer Science or other relevant fields.',
-                    'Open for fresh graduates with/without work experience.',
-                    'Hands-on knowledge of front end development technologies such as JavaScript, HTML, CSS, SASS, AJAX and JSON',
-                    'Experience with one or more JavaScript libraries and/or frameworks such as ReactJS, Node.js, Ember, AngularJS, Backbone etc.',
-                    'Willing to work in semarang'
-                ]),
-                'job_desks' => json_encode([
-                    'Working as part of a team to design and implement enterprise level dynamic web applications such as media portals, content management systems, e-commerce sites or banking portals',
-                    ' Translation of User Stories into source code on various technical platforms and within waterfall or agile delivery environments',
-                    'Integration of established 3rd party services such as video content management solutions, Cloud infrastructure service web analytics or commercial transaction service providers',
-                ]),
-                'job_category' => 'Full Time',
-                'salary' => 1000,
-                'location' => 'Semarang',
-                'company' => 'Accenture',
-                'created_at' => now(),
-                'updated_at' => now(),
-                'link' => 'https://www.accenture.com/id-en/careers/jobdetails?id=R00136458_en&src=LINKEDINJP'
-            ],
-
-
-            [
-                'title' => 'Mobile Frontend Developer - Indonesia - MB',
-                'description' => 'We are looking for a Mobile Frontend Developer to join our team. You will be responsible for the development and maintenance of our software applications. You will also be responsible for the development and maintenance of our software applications.',
-                'requirements' => json_encode([
-                    'B.S. in Computer Science, Information Systems or equivalent',
-                    'Minimum 3 year’s experience in mobile application development & environment',
-                    'HanAt least 3 years hands on knowledge & experience in the following: Git, Restful API, Mobile App Development Frameworks',
-                    'Deep understanding of developing UI components that can be used and accessed across the whole mobile',
-                    'Very good understanding of source code management for cross platform development using industry best practices for frontend and mobile applications
-                    Detail-oriented with eyes sensitive to the aesthetics of UI',
-                    'Self-starter & team player',
-                    'Analytical & good problem solving skills',
-                    'Good verbal, written and interpersonal skills'
-                ]),
-                'job_desks' => json_encode([
-                    'Scope, design and deliver pixel-perfect mobile applications based on wireframes and design requirements in collaboration with back end developers to create a comprehensive digital solution that meets the customer’s business',
-                    'Optimize mobile applications for maximum speed',
-                    'Architect and implement mobile UI/UX based on provided wireframes and business',
-                    'Gather, document and analyze business requirements in order to help define scope of software development May include mobile mock-ups and interaction prototyping.',
-                    'Produce and maintain technical documentation related to front-end modules (e.q. scope requirements, logical and technical designs, testing and implementation plans).',
-                    'Troubleshoot and implement bug fixes related to client and user reported',
-                    'Play proactive support role and take ownership of technical issues, and work with internal/ cross functional/ external team to resolve more advanced issues when',
-                    'Collaborate with team members in all aspect of software design, coding, testing, documentation & deployment',
-                    'Deliverables in agile scrum approach'
-                ]),
-                'job_category' => 'Full Time',
-                'salary' => 1000,
-                'location' => 'Indonesia',
-                'company' => 'Beyondsoft ',
-                'created_at' => now(),
-                'updated_at' => now(),
-                'link' => 'https://beyondsoft.recruiterpal.com/career/jobs/6nbql'
-            ],
-
-
-            [
-                'title' => 'Junior Business Analyst',
-                'description' => 'We are looking for a Junior Business Analyst to join our team. You will be responsible for the development and maintenance of our software applications. You will also be responsible for the development and maintenance of our software applications.',
-                'requirements' => json_encode([
-                    'Bachelor’s degree in Computer Science, Information Systems, or related field',
-                    '1-3 years of experience in business analysis, software development, or related field',
-                    'Experience with Agile development methodologies',
-                    'Experience with JIRA, Confluence, and other Atlassian tools',
-                    'Experience with SQL and relational databases',
-                    'Experience with Microsoft Office Suite',
-                    'Experience with Microsoft Visio',
-                    'Experience with Microsoft Project',
-                    'Experience with Microsoft SharePoint',
-                    'Experience with Microsoft Power BI',
-                    'Experience with Microsoft Power Apps',
-                    'Experience with Microsoft Power Automate',
-                    'Experience with Microsoft Power Virtual Agents',
-                ]),
-                'job_desks' => json_encode([
-                    'Work with business stakeholders to understand business requirements and translate them into user stories',
-
-                ]),
-                'job_category' => 'Full Time',
-                'salary' => 1000,
-                'location' => 'Indonesia',
-                'company' => 'BCA ',
-                'created_at' => now(),
-                'updated_at' => now(),
-                'link' => 'https://www.jobstreet.co.id/en/job/junior-business-analyst-3750000-3750000-20210610090000?fr=21'
-            ],
-
-
-            [
                 'title' => 'Application Development Analyst - SAP Basis',
                 'description' => 'Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Interactive, Technology and Operations services—all powered by the world’s largest network of Advanced Technology and Intelligent Operations centres. Our 506,000 people deliver on the promise of technology and human ingenuity every day, serving clients in more than 120 countries. We embrace the power of change to create value and shared success for our clients, people, shareholders, partners and communities. Visit us at www.accenture.com.',
                 'requirements' => json_encode([
@@ -141,7 +49,7 @@ class JobVacanciesSeeder extends Seeder
 
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 - Rp. 10.000.000',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Semarang, Central Java, Indonesia',
                 'company' => 'Accenture',
                 'created_at' => now(),
@@ -165,7 +73,7 @@ class JobVacanciesSeeder extends Seeder
 
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 -  Rp 5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => "Semarang, Central Java, Indonesia",
                 'company' => "PT . TRI SAPTA JAYA(KALBE GROUP)",
                 'created_at' => now(),
@@ -191,7 +99,7 @@ class JobVacanciesSeeder extends Seeder
 
                 ]),
                 'job_category' => 'Contract',
-                'salary' => '0 - Rp 5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Semarang, Central Java, Indonesia',
                 'company' => 'PT. TRI SAPTA JAYA(KALBE GROUP)',
                 'created_at' => now(),
@@ -219,7 +127,7 @@ class JobVacanciesSeeder extends Seeder
 
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 - Rp 5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Semarang, Central Java, Indonesia',
                 'company' => 'PT. KONTAK PERKASA FUTURES SEMARANG',
                 'created_at' => now(),
@@ -240,7 +148,7 @@ class JobVacanciesSeeder extends Seeder
 
                 ]),
                 'job_category' => 'Internship',
-                'salary' => '0 - Rp 5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Semarang, Central Java, Indonesia',
                 'company' => 'PT. SEPUTRA ADIAJI NUGROHO',
                 'created_at' => now(),
@@ -260,21 +168,21 @@ class JobVacanciesSeeder extends Seeder
                 ]),
                 'job_desks' => json_encode([
                     'Working as part of a team to design and implement enterprise level dynamic web applications such as media portals, content management systems, e-commerce sites or banking portals',
-                    ' Translation of User Stories into source code on various technical platforms and within waterfall or agile delivery environments',
+                    'Translation of User Stories into source code on various technical platforms and within waterfall or agile delivery environments',
                     'Integration of established 3rd party services such as video content management solutions, Cloud infrastructure service web analytics or commercial transaction service providers',
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 - Rp5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Semarang',
                 'company' => 'Accenture',
                 'created_at' => now(),
                 'updated_at' => now(),
-                'link' => null
+                'link' => 'https://www.accenture.com/id-en/careers/jobdetails?id=R00136458_en&src=LINKEDINJP',
             ],
 
 
             [
-                'title' => 'Mobile Frontend Developer - Indonesia - MB',
+                'title' => 'Mobile Frontend Developer',
                 'description' => 'We are looking for a Mobile Frontend Developer to join our team. You will be responsible for the development and maintenance of our software applications. You will also be responsible for the development and maintenance of our software applications.',
                 'requirements' => json_encode([
                     'B.S. in Computer Science, Information Systems or equivalent',
@@ -299,12 +207,12 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                     'Deliverables in agile scrum approach'
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 - Rp5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Indonesia',
                 'company' => 'Beyondsoft',
                 'created_at' => now(),
                 'updated_at' => now(),
-                'link' => null
+                'link' => 'https://beyondsoft.recruiterpal.com/career/jobs/6nbql',
             ],
 
 
@@ -312,26 +220,20 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                 'title' => 'Junior Business Analyst',
                 'description' => 'BCA terus bertumbuh dengan puluhan ribu karyawan yang tersebar di berbagai kantor BCA di seluruh Indonesia. Berbagai penghargaan di bidang pengelolaan sumber daya manusia juga diraih oleh BCA, seperti Gallup Great Workplace 2019, Indonesia Human Capital Award (IHCA) 2021, HR Asia Award 2021 dan lainnya. Hal ini menjadi bukti nyata bahwa kami selalu berupaya menciptakan lingkungan kerja yang menyenangkan serta senantiasa memberikan ruang bagi para karyawan untuk dapat terus tumbuh dan berkembang.',
                 'requirements' => json_encode([
-                    'Bachelor’s degree in Computer Science, Information Systems, or related field',
-                    '1-3 years of experience in business analysis, software development, or related field',
-                    'Experience with Agile development methodologies',
-                    'Experience with JIRA, Confluence, and other Atlassian tools',
-                    'Experience with SQL and relational databases',
-                    'Experience with Microsoft Office Suite',
-                    'Experience with Microsoft Visio',
-                    'Experience with Microsoft Project',
-                    'Experience with Microsoft SharePoint',
-                    'Experience with Microsoft Power BI',
-                    'Experience with Microsoft Power Apps',
-                    'Experience with Microsoft Power Automate',
-                    'Experience with Microsoft Power Virtual Agents',
+                    'S1 graduates from all majors in Engineering, Computer, Mathematics, Statistics, and Economics',
+                    'Have interest in System or Product Development',
+                    'Placement at Head Office (Jakarta)',
+                    'Willing not to marry for 1 (one) year of education',
+                    'Willing to undergo official bond after education',
                 ]),
                 'job_desks' => json_encode([
-                    'Work with business stakeholders to understand business requirements and translate them into user stories',
-
+                    'Exploring the needs of work units to obtain appropriate alternative solutions to assisting work units in the development process, designing policies, procedures and user requirements as needed.',
+                    'Identifies gaps and provides technical expertise in business requirements for system functional specifications and scales new and current systems, processes and procedures in a cost effective manner.',
+                    'Configures system settings and options; plans and executes unit, integration and acceptance testing to meet business requirements. Designs details of automated systems.',
+                    'May provide consultation to users in the area of automated systems. May lead cross-functional linked teams to address business or systems issues.',
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 - Rp5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Indonesia',
                 'company' => 'BCA',
                 'created_at' => now(),
@@ -354,7 +256,7 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
 
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 - Rp5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Indonesia',
                 'company' => 'PT CHAKRA GIRI ENERGI INDONESIA',
                 'created_at' => now(),
@@ -381,7 +283,7 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                     'Collaborate with developers to refine build, test and release practice across the organization',
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 - Rp5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Indonesia',
                 'company' => 'PT. Nusantara Sejahtera Raya (Cinema 21)',
                 'created_at' => now(),
@@ -390,31 +292,33 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
             ],
 
             [
-                'title' => 'IT Governance, Digital & Technology',
-                'description' => '',
+                'title' => 'Business Analyst for Non-Core System',
+                'description' => 'Yayasan Pendidikan Pelita Harapan mendirikan Universitas Pelita Harapan pada tahun 1994 untuk mendidik anak bangsa dan memajukan dunia pendidikan Indonesia.
+                Universitas Pelita Harapan mempunyai visi dan misi untuk secara terus menerus melakukan transformasi pendidikan secara total.
+                Universitas Pelita Harapan bercita-cita untuk memberikan pendidikan yang berkualitas baik baik melalui global best practices, manajemen yang profesional, kemitraan strategis secara global, dan pendekatan yang bersifat people-oriented berdasarkan prinsip - prinsip Kristen. Proses pembelajaran yang khas untuk membangun keterampilan kepemimpinan, pembelajaran dan komunikasi, serta karakter dan sikap, membuat UPH memiliki reputasi yang kuat untuk untuk membentuk pengetahuan, iman dan karakter para mahasiswa.',
                 'requirements' => json_encode([
-                    'Minimum of 5 years experience as Information Security, IT Governance, Risk and Compliance (IT GRC) or IT Auditors in Insurance or Financial Service industry',
-                    'Demonstrate good communication and writing skills',
-                    'Proficient with English written and verbal',
-                    'Experience in creating and maintaining IT and/or information security policies and procedures',
+                    'Assess current process flow and determine user requirements',
+                    'Propose suitable solution that meet user needs but also technologically feasible (according to system architecture)',
+                    'Identify any changes that will impact current process flow',
+                    'Write functional requirement design based on user requirements',
                     'Prior experience in implementing ISO 27001, ITIL, COBIT, and/or PCI-DSS standards',
                     'Familiarity with local and regional regulatory requirements and how they impact IT policies (prior experience will be an advantage)',
                 ]),
                 'job_desks' => json_encode([
-                    'Develop and maintain IT policies, standards, and procedures according to applicable internal and external requirements, including the applicable regulations in Indonesia',
-                    'Coordinate with compliance to ensure that every initiative, development, and collaboration is complying with standards (internal and external)',
-                    'Conduct a routine evaluation of policies and procedures implementation and ensure best practice risk mitigation and assessment functions are maintained to comply with the company strategy',
-                    'Act as a liaison officer between IT user and external / internal auditor to meet the requirement and supply any advisory and sufficient data',
-                    'Implement a good governance organization using the ISO27001 framework or others',
-                    'Maintain key risk indicator (KRI) and risk control assessment (RCSA) related IT with the relevant department in order to assess the effectiveness of any control and identify new risks',
+                    'Strong communication and interpersonal skill',
+                    'Analytical thinking and problem solving',
+                    'Detail oriented',
+                    'Understanding of system flow and database structure',
+                    'Diploma or bachelor’s degree in any major',
+                    'Experience in similar or related fields for minimum of 3 years',
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => '0 - Rp5.000.000,00',
+                'salary' => '0 - Rp10.000.000,00',
                 'location' => 'Indonesia - Jakarta',
-                'company' => 'SeaBank',
+                'company' => 'Universitas Pelita Harapan',
                 'created_at' => now(),
                 'updated_at' => now(),
-                'link' => null
+                'link' => 'https://www.linkedin.com/jobs/search/?currentJobId=3373655059&keywords=junior%20%20business%20analyst&refresh=true',
             ],
 
             [
@@ -437,6 +341,32 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                 'salary' => 'Rp20.000.000,00 - Rp28.000.000,00',
                 'location' => 'Jakarta Barat',
                 'company' => 'PT Creon Teknologi Indonesia',
+                'created_at' => now(),
+                'updated_at' => now(),
+                'link' => 'https://www.jobstreet.co.id/id/job-search/backend-jobs/',
+            ],
+
+            [
+                'title' => 'Business Analyst',
+                'description' => 'Chickin aggregates poultry farmer and offer their chickens to businesses while providing IoT that controls the climate, thereby increasing productivity.',
+                'requirements' => json_encode([
+                    'Bachelor Degree Math/Science (preferred)',
+                    'Experience as Personal Analyst min 2 years,',
+                    'Ms Office, spreadsheet, advanced excel skills and other tools analysis (ex : Power BI),',
+                    'Experience working with senior decision makers,',
+                    'Strong communication/interpersonal skills,',
+                    'Advanced analytical thinking background.',
+                ]),
+                'job_desks' => json_encode([
+                    'Discussion personal with president for detail business analysis, finding root cause & solve the problem,',
+                    'Provide & reporting metrics data based on president needed,',
+                    'Take part in president job activities (business trip, meeting, networking, etc)',
+                    'Planning, monitoring & follow up progress to president under structure)',
+                ]),
+                'job_category' => 'Full Time',
+                'salary' => '0 - Rp10.000.000,00',
+                'location' => 'Solo, Central Java',
+                'company' => 'PT SINERGI KETAHANAN PANGAN',
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => 'https://www.jobstreet.co.id/id/job-search/backend-jobs/',

@@ -20,7 +20,7 @@ return new class extends Migration {
             $table->string('salary')->nullable();
             $table->string('company')->nullable();
             $table->string('job_category')->nullable();
-            $table->string('link')->nullable();
+            $table->longText('link')->nullable();
             $table->json('job_desks')->nullable();
             $table->json('requirements')->nullable();
             $table->json('benefits')->nullable();

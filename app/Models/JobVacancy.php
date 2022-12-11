@@ -4,11 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
 
-class JobVacancy extends Model
+class JobVacancy extends Model implements HasMedia
 {
-    use HasFactory;
+    use HasFactory, InteractsWithMedia;
 
     protected $casts = [
         'requirements' => 'array',
@@ -16,13 +17,4 @@ class JobVacancy extends Model
         'job_desks' => 'array',
     ];
 
-    public function company(): BelongsTo
-    {
-        return $this->belongsTo(Company::class);
-    }
-
-    public function jobCategory(): BelongsTo
-    {
-        return $this->belongsTo(JobCategory::class);
-    }
 }

@@ -26,6 +26,7 @@ class JobVacancyResource extends JsonResource
             'link' => $this->link,
             'job_category' => $this->job_category,
             'company' => $this->company,
+            'company_logo' => $this->getFirstMediaUrl('company_logo'),
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
         ];

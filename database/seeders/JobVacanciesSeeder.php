@@ -264,7 +264,7 @@ class JobVacanciesSeeder extends Seeder
                     'Integration of established 3rd party services such as video content management solutions, Cloud infrastructure service web analytics or commercial transaction service providers',
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => 1000,
+                'salary' => '0 - Rp5.000.000,00',
                 'location' => 'Semarang',
                 'company' => 'Accenture',
                 'created_at' => now(),
@@ -299,7 +299,7 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                     'Deliverables in agile scrum approach'
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => 1000,
+                'salary' => '0 - Rp5.000.000,00',
                 'location' => 'Indonesia',
                 'company' => 'Beyondsoft',
                 'created_at' => now(),
@@ -310,7 +310,7 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
 
             [
                 'title' => 'Junior Business Analyst',
-                'description' => 'We are looking for a Junior Business Analyst to join our team. You will be responsible for the development and maintenance of our software applications. You will also be responsible for the development and maintenance of our software applications.',
+                'description' => 'BCA terus bertumbuh dengan puluhan ribu karyawan yang tersebar di berbagai kantor BCA di seluruh Indonesia. Berbagai penghargaan di bidang pengelolaan sumber daya manusia juga diraih oleh BCA, seperti Gallup Great Workplace 2019, Indonesia Human Capital Award (IHCA) 2021, HR Asia Award 2021 dan lainnya. Hal ini menjadi bukti nyata bahwa kami selalu berupaya menciptakan lingkungan kerja yang menyenangkan serta senantiasa memberikan ruang bagi para karyawan untuk dapat terus tumbuh dan berkembang.',
                 'requirements' => json_encode([
                     'Bachelor’s degree in Computer Science, Information Systems, or related field',
                     '1-3 years of experience in business analysis, software development, or related field',
@@ -331,12 +331,12 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
 
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => 1000,
+                'salary' => '0 - Rp5.000.000,00',
                 'location' => 'Indonesia',
                 'company' => 'BCA',
                 'created_at' => now(),
                 'updated_at' => now(),
-                'link' => null
+                'link' => 'https://karir.bca.co.id/job-fair/junior-business-analyst-okt-nov?utm_source=social%20organic&utm_medium=linkedin&utm_campaign=sac_bca-dtb-adm_all%20product_info-organic_social%20organic_nov_cps_linkedin|22110101912&utm_content=bankbca-linkedin-job%20posting',
             ],
 
             [
@@ -354,17 +354,17 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
 
                 ]),
                 'job_category' => 'Full Time',
-                'salary' => 1000,
+                'salary' => '0 - Rp5.000.000,00',
                 'location' => 'Indonesia',
                 'company' => 'PT CHAKRA GIRI ENERGI INDONESIA',
                 'created_at' => now(),
                 'updated_at' => now(),
-                'link' => null
+                'link' => 'https://glints.com/id/opportunities/jobs/data-scientist/ff57c931-ad7d-47dd-b25d-94e7df4c3fef',
             ],
 
             [
                 'title' => 'Devops Engineer',
-                'description' => '',
+                'description' => 'PT. Nusantara Sejahtera Raya (Cinema XXI - The Premiere - Cinema 21) is the largest cinema chain in Indonesia. Currently, we had more than 150 cinemas in Indonesia with +700 screens and still expanding our business. Why join us? As market leader in cinema industry, our company is a great place to push your career to the next level with a culture built on collaboration and innovation. This is an organization where you are surrounded by smart and forward-thinking people. This is a chance to work',
                 'requirements' => json_encode([
                     'Bachelor’s Degree from reputable university',
                     'Minimum experience 3+ years as DevOps Engineer',
@@ -386,7 +386,7 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                 'company' => 'PT. Nusantara Sejahtera Raya (Cinema 21)',
                 'created_at' => now(),
                 'updated_at' => now(),
-                'link' => null
+                'link' => 'https://talent.usedeall.com/job-detail/6371ba9ab562e60013efa3ee?utm_source=ig-feed&utm_medium=post&utm_campaign=promote&utm_content=de-xxi',
             ],
 
             [
@@ -415,6 +415,31 @@ Detail-oriented with eyes sensitive to the aesthetics of UI',
                 'created_at' => now(),
                 'updated_at' => now(),
                 'link' => null
+            ],
+
+            [
+                'title' => 'BACK END DEVELOPER-NODE JS',
+                'description' => 'Creon Teknologi Indonesia is a professional technology company with experience of delivering software consulting and software development services to leading companies across the globe. We specialise in multi-platform custom application development and integration. We help our clients to mobile-enable their employees through enterprise mobile applications. In addition, we develop cutting-edge security design, mobile applications, mobile games, billing and payment solutions that help our enterprise customers to successfully communicate with and interact with their consumers.Our offices are based in West Jakarta, Indonesia.',
+                'requirements' => json_encode([
+                    'Minimum 3 years of working experience',
+                    'Candidate must possess at least Bachelor Degree',
+                    'Has the ability to create applications, perform trace errors, fixes with programming language, Node Js, machete',
+                    'Having a good knowledge in : Git, Git hooks, unit test frameworks, CI tools like CircleCI, Docker containers, Kubernetes, GitOps, dan monitoring tools Prometheus, log aggregators seperti Elasticsearch & Kibana, provisioning tools sepeeti Ansible, Vagrant, and Terraform.',
+                    'It has the ability to design complex database structures and analyze large data in SQL.',
+                ]),
+                'job_desks' => json_encode([
+                    'Responsible for developing all parts of the service system',
+                    'Participate in all phases of the development cycle, focusing on coding, testing, and debugging and Conducting research, evaluating and analyzing technical and design requirements',
+                    'fix bugs/weaknesses in websites and other systems to ensure the server runs optimally',
+                    'interact with the database, ensuring that the written code is safe from any interference (inside & outside)',
+                ]),
+                'job_category' => 'Full Time',
+                'salary' => 'Rp20.000.000,00 - Rp28.000.000,00',
+                'location' => 'Jakarta Barat',
+                'company' => 'PT Creon Teknologi Indonesia',
+                'created_at' => now(),
+                'updated_at' => now(),
+                'link' => 'https://www.jobstreet.co.id/id/job-search/backend-jobs/',
             ],
 
         ];
